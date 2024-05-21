@@ -134,11 +134,9 @@ router.post('/login',async (req,res) => {
 
 
         //get user details
-router.get('/:id',(req,res) => {
+router.get('/:id',authenticateToken,(req,res) => {
         const { id } = req.params;
-        // const user = findOne({_id:id});
-        console.log(req);
-    res.send('server home page')
+        res.send({data: req.user});
 })
 
 
