@@ -8,19 +8,16 @@ const transactionHSchema=mongoose.Schema(
         amount:{
             type:String
         },
-        "user-token":{
-            type:String
-        },
         date:{
             type:String
         },
         type: {
             type:String
         },
-        cbalance: {
+        current_balance: {
             type:String
         },
-        status:{
+        owner: {
             type:String
         }
     }

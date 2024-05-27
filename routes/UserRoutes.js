@@ -88,7 +88,7 @@ router.post('/register',async (req,res) => {
                                 nextofkin: {
                                         firstname: bfirstname,
                                         lastname: blastname,
-                                        relationship: brelationship,
+                                               relationship: brelationship,
                                         address: baddress
                                 },
                                 createdat: new Date()
