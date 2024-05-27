@@ -14,6 +14,9 @@ const transactionHSchema=mongoose.Schema(
         date:{
             type:String,
         },
+        type: {
+            type:String,
+        },
         status:{
             type:String
         }
