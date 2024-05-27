@@ -9,13 +9,16 @@ const transactionHSchema=mongoose.Schema(
             type:String
         },
         "user-token":{
-            type:String,
+            type:String
         },
         date:{
-            type:String,
+            type:String
         },
         type: {
-            type:String,
+            type:String
+        },
+        cbalance: {
+            type:String
         },
         status:{
             type:String
